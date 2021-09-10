@@ -1,0 +1,23 @@
+{
+  "name": "easyauthenticator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run help": "node index --help",
+    "run list": "node index --list",
+    "run token": "node index --token test@gmail.com",
+    "run verify": "node index --verify test@gmail.com 995192",
+    "run add": "node index --add test@gmail.com 6qau d2d5 o6ix uaeu qclo hgco ezmb fsiz",
+    "run g": "node index -g Neo.Anderson@oocl.com Neo Anderson",
+    "run test": "node test",
+    "debug help": "node %NODE_DEBUG_OPTION% index --help"
+  },
+  "author": "Sicmatr1x",
+  "license": "MIT",
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "commander": "^4.0.1",
+    "config": "^3.2.4"
+  }
+}
